@@ -14,11 +14,4 @@ public class Player {
     private String name;
     private int strength;
 
-    public boolean matches(String search) {
-        if (getName().equals(search)) {
-            return true;
-        }
-
-        return false;
-    }
 }
